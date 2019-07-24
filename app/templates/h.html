@@ -13,8 +13,41 @@
 		<script src="{% static '/vendors/jquery/jquery-3.3.1.min.js' %}"></script>
 		<script src="{% static '/vendors/jquery-ui/jquery-ui.min.js' %}"></script>
 	</head>
+  
+  <style>
+    .flex {
+      display: flex;
+      flex-wrap: wrap;
+      background-color: purple;
+      
+    }
+    .flex > div {
+      background-color: orange;
+      width: 200px;
+      margin: 25px;
+      height: 100px;
+    }
+  </style>
+  
 	<body>
 		<!-- Your layout here -->
+    <div class="flex">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
 
 	</body>
 </html>
